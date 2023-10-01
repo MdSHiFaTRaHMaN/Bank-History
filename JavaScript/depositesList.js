@@ -7,7 +7,7 @@ document.getElementById("btn-deposit").addEventListener("click", () => {
     const currentDate = new Date();
     const formattedDate = `${currentDate.toLocaleDateString()} ${currentDate.toLocaleTimeString()}`;
     const H = document.createElement('h4');
-    H.innerHTML = `${count + 1}Deposit Amount-${text} Taka & Time-${formattedDate}`;
+    H.innerHTML = `${count + 1}➡️ Deposit Amount: ${text}.00 TK ⌚→Time ${formattedDate}`;
     textList.appendChild(H);
     inputField.value = "";
 });
